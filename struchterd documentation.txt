@@ -1,0 +1,53 @@
+*abstract
+*aknowlegment
+*list of figure 
+*list of content
+*Project Organization («ﬁ”«„ «·„‘—Ê⁄)
+---------------------------------------------------------------
+*chapter 1(introduction){
+**introduction
+**about project
+**Problem Statement
+**project aim
+}
+---------------------------------------------------------------
+chapter 2(LITERATURE REVIEW){
+**introduction
+**Background
+**Related Works
+**Comparison Between Related Literature And Proposed System
+}
+---------------------------------------------------------------
+chapter 3(Methodology){
+**Overview of Methodology (intro)
+**Waterfall Model
+**Tools and Techniques 
+}
+---------------------------------------------------------------
+chapter 4(SYSTEM ANALYSIS){
+**intro
+**FEASIBILITY ANALYSIS
+**System Requirement Capturing Techniques
+**REQUIREMENTS ANALYSIS
+**Construction Model{
+	***Use case diagram
+	***Context Diagram 
+	***Class Diagram
+	***ER Diagram 
+	***Sequence Diagram 
+	} 
+**Conclusion 
+}
+---------------------------------------------------------------
+chapter 5(Implementation){
+**Introduction
+**Database
+**Interfaces design
+}
+---------------------------------------------------------------
+chapter 6(Conclusion and Future work){
+**Future work
+**Conclusion
+}
+---------------------------------------------------------------
+*References
