@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --main-color: #212529;
+  --main-font: "Roboto", sans-serif;
+  --sec-font: 'Noto Kufi Arabic', sans-serif;
+}
+
+body {
+  background-color:#eee;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+p {
+  line-height: 200%;
+}
+a{
+  text-decoration: none;
+
+}
+/************************ Start Sidebar ******************************/
+
+
+.logo svg{
+  margin-right: 5px !important;
+  font-size: 1.2rem;
+}
+
+
+.nav-link:hover{
+    background-color:#525252 !important;
+}
+
+.nav-link .fa{
+    transition:all 1s;
+}
+
+.nav-link:hover .fa{
+    transform:rotate(360deg);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s ease-in-out;
+    width: 250px;
+    z-index: 100000;
+}
+.open{
+  left: 0;
+}
+
+.back-side {
+  padding-inline: 1rem;
+  padding-block: 0.7rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.back-side:hover{
+  background-color: rgb(104, 104, 104);
+}
+
+
+/************************ End Sidebar ******************************/
+
+
+/************************ Start Navbar ******************************/
+
+.collapse{
+  align-items: center;
+}
+
+.bars{
+  background-color: #0d6efd;
+  color: #fff;
+  padding-inline: 0.7rem;
+  padding-block: 0.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.bars:hover{
+  background-color: #f3f3f3;
+  color: var(--main-color);
+}
+
+.dropdown-menu-start[data-bs-popper] {
+  right: auto;
+  left: -50px;
+}
+.dropdown-toggle {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  
+}
+.dropdown-toggle:hover {
+  color: #0d6efd;
+  
+}
+.dropdown .dropdown-menu{
+  background-color: var(--main-color);
+}
+
+.dropdown .dropdown-menu .dropdown-item{
+  color: #fff;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+  background-color: #0d6efd;
+}
+.dropdown .dropdown-menu .logout:hover{
+  background-color: rgb(149, 26, 26);
+}
+
+
+
+/************************ End Navbar ******************************/
+
+
+/************************ Start Content ******************************/
+.box > a {
+  border-radius: 20px;
+  display: flex;
+  font-family: var(--main-font);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.9;
+}
+.box > a:hover ,.box > a:hover .icons svg{
+  opacity: 1;
+}
+.box > a  .icons{
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box > a .icons svg{
+  font-size: 3rem;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+}
+
+.box > a .text-box{
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box > a  .text-box h1{
+  font-size: 1.7rem;
+  flex: 40%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+}
+.box > a .text-box span{
+  font-size: 40px;
+  flex: 60%;
+  font-weight: 600;
+}
+
+.box > a:nth-child(1){
+  background-color: #e55251;
+}
+.box > a:nth-child(2){
+  background-color: #32C0C0;
+}
+.box > a:nth-child(3){
+  background-color: #3199ff;
+}
+.box > a:nth-child(4){
+  background-color: #FB4106;
+}
+
+
+
+
+
+/************************ End Content ******************************/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 380px) {
+  .box > div:nth-child(3){
+    margin-left: 0 !important;
+  }
+  .box > div:nth-child(2){
+    margin-right: 0 !important;
+  }
+ 
+}
+@media screen and (max-width: 768px) {
+  
+  
+ 
+
+}
