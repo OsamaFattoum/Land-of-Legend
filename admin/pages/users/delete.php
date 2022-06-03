@@ -13,6 +13,7 @@ if(isset($_GET['delete'])){
         $row_deleted = DataBaseQuery::deleteQuery('users','WHERE id = ?',[$id]);
 
         if($row_deleted > 0){
+            $_SESSION['type'] = 'success';
             $_SESSION['msg'] = 'User Delete Successfully';
             header("location:?page=users");
             exit();
@@ -20,6 +21,8 @@ if(isset($_GET['delete'])){
         }
 
     }else{
+        $_SESSION['type'] = 'danger';
+        $_SESSION['msg'] = 'This User Doesn\'t Exist';
         header("location:?page=users");
         exit();
     }

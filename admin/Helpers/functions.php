@@ -24,6 +24,28 @@ function getCssJS($file,$ex){
 
 }
 
+// Function Save Photo 
+
+function saveImage($file){
+
+    if (($file['name'] != "")){
+
+            // Where the file is going to be stored
+            $target_dir = ROOT_FILE . "Layout\images\upload\\";
+            $temp_name = $file['tmp_name'];
+            $file = $file['name'];
+            $path = pathinfo($file);
+            $ext = $path['extension'];
+            $filename = time() . '.' . $ext;
+            $path_file = $target_dir.$filename;
+            
+            move_uploaded_file($temp_name,$path_file);
+            return $filename;
+    }
+
+
+}
+
 
 
 

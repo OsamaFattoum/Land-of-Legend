@@ -6,33 +6,51 @@
     <hr> 
     <ul class="nav nav-pills flex-column mb-auto"> 
         <li class="nav-item"> 
-            <a href="?page=users" class="nav-link active" aria-current="page"> 
+            <a href="?page=users" class="nav-link text-white" aria-current="page"> 
                 <i class="fa fa-users"></i>
                 <span class="ms-2">Manage Users</span>
             </a>
+        </li>
+        <li class="nav-item"> 
+            <a href="?page=news" class="nav-link text-white" aria-current="page"> 
+                <i class="fa fa-newspaper"></i>
+                <span class="ms-2">Manage News</span>
+            </a>
         </li> 
         <li> 
-            <a href="#" class="nav-link text-white"> 
-                <i class="fa fa-dashboard"></i>
-                <span class="ms-2">Dashboard</span>
+            <a href="?page=categories" class="nav-link text-white"> 
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <span class="ms-2">Manage Categories</span>
             </a> 
         </li> 
         <li> 
-            <a href="#" class="nav-link text-white"> 
-                <i class="fa fa-first-order"></i>
-                <span class="ms-2">My Orders</span> 
+            <a href="?page=cities" class="nav-link text-white"> 
+                <i class="fa-solid fa-city"></i>
+                <span class="ms-2">Manage Cities</span>
             </a> 
         </li> 
         <li> 
-            <a href="#" class="nav-link text-white"> 
-                <i class="fa fa-cog"></i>
-                <span class="ms-2">Settings</span>
+            <a href="?page=countries" class="nav-link text-white"> 
+                <i class="fa-solid fa-flag"></i>
+                <span class="ms-2">Manage Countries</span>
             </a> 
         </li> 
         <li> 
-            <a href="#" class="nav-link text-white"> 
-                <i class="fa fa-bookmark"></i>
-                <span class="ms-2">Bookmarks</span> 
+            <a href="?page=content" class="nav-link text-white"> 
+                <i class="fa-solid fa-file-lines"></i>
+                <span class="ms-2">Manage Contents</span>
+            </a> 
+        </li> 
+        <li> 
+            <a href="?page=tickets" class="nav-link text-white"> 
+                <i class="fa-solid fa-ticket"></i>
+                <span class="ms-2">Manage Tickets</span>
+            </a> 
+        </li> 
+        <li> 
+            <a href="?page=maps" class="nav-link text-white"> 
+                <i class="fa-solid fa-map"></i>
+                <span class="ms-2">Manage Maps</span>
             </a> 
         </li> 
     </ul> 
