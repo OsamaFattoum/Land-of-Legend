@@ -28,7 +28,7 @@ The platform helps tourists explore popular destinations and discover unique act
 
 ## 📸 Screenshots  
 
-
+screenshots/index.png
 ---
 
 ## 🚀 Installation & Setup  
