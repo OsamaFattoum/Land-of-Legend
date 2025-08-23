@@ -8,13 +8,6 @@
          <!-- Get dropdown of languages -->
        <?php include_once './Front_End/Template/includes/dropdown_lang.php'; ?>
        
-       <div class="box-down">
-           <a href="">
-               <span><?php echo $link_explore ?></span>
-               <i class="fa-solid fa-angle-down"></i>
-
-           </a>
-       </div>
    </div>
    <!-- end heading landing -->
    

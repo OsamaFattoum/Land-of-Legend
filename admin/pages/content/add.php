@@ -42,7 +42,7 @@
             $image = saveImage($image);
 
             /****** Query to Insert content Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('content','name_en,name_ar,desc_en,desc_ar,image,city_id',"?,?,?,?,?,?",null,null,[$name_en,$name_ar,$desc_en,$desc_ar,$image,$city]);
+            $inserted = DataBaseQuery::insertQuery('content','name_en,name_ar,desc_en,desc_ar,image,city_id',"?,?,?,?,?,?",[$name_en,$name_ar,$desc_en,$desc_ar,$image,$city]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

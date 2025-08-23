@@ -10,8 +10,7 @@
           <?php echo strtoupper($_SESSION['admin_name']); ?>
         </a>
         <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
+
           <li><a class="dropdown-item logout" href="logout.php">Logout</a></li>
         </ul>
       </div>

@@ -34,7 +34,7 @@
             $image = saveImage($image);
 
             /****** Query to Insert News Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('news','name_en,name_ar,desc_en,desc_ar,date,image',"?,?,?,?,now(),?",null,null,[$name_en,$name_ar,$desc_en,$desc_ar,$image]);
+            $inserted = DataBaseQuery::insertQuery('news','name_en,name_ar,desc_en,desc_ar,date,image',"?,?,?,?,now(),?",[$name_en,$name_ar,$desc_en,$desc_ar,$image]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

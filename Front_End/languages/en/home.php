@@ -18,6 +18,8 @@ return [
     'attraction_link' => 'Attractions',
     'online_booking_link' => 'Online Booking',
     'media_link' => 'Media Center',
+    'res' => 'Reservation List',
+    'logout'    => 'Logout',
 
 
 
@@ -776,4 +778,218 @@ Currency can be exchanged at major banks, exchange booths and at most hotels. St
         'parag_ramdan' => 'Ramadan is a joyous holy month reserved for fasting, piety, and generosity. The dates of observance varies according to the Islamic lunar calendar. During Ramadan, alcohol is not sold, except  in larger hotels. Smoking, eating, and drinking in public is prohibited during the hours of daylight. As a sign of respect, visitors are kindly requested to refrain from these activities in public during fasting hours. If you’re visiting Jordan during Ramadan and you mistakenly drink or eat in public, don’t worry Jordanians are chill.
             <br><br>
         Pro Tip:  During Ramadan many stores, banks, and offices open  at 09:00 and close early at 14:00. ',
+
+        /********************* Experiances Transalte********************** */
+        'landing_exp_head_text'=> 'Experience',
+        'get_experience'=> 'Experience',
+        /********************* Attractions Transalte********************** */
+        'landing_att_head_text'=> 'Attractions',
+        'get_att'=> 'Attractions',
+        'content'=>  'Content',
+        'map'   => 'Map',
+
+        /********************* Booking Transalte********************** */
+
+        'landing_book_head_text' => 'Online Booking',
+        'get_book'=> 'Online Booking',
+        'reg' => 'Register Page',
+
+        'resulte_not'=> 'No Search Resulte',
+        'h_date_in_t' => 'Hotel Date In',
+   
+        'a_date_in_t' => 'Airline Date In',
+        'a_date_out_t' => 'Airline Date Out',
+        'b_ticket' => 'Buy Ticket to Enter Historical Sites !',
+        'search' => 'Search',
+        'add_booking'=> 'Add Booking',
+        'hotel_res_t' => 'List Hotel Reservation',
+        'airline_res_t' => 'List Airline Reservation',
+        'ticket_res_t' => 'List Ticket',
+        'n_range' => 'Range Room: ',
+        'n_date_in' => 'Date In:',
+        'n_date_out' => 'Date Out:',
+        'n_night' => 'Nights: ',
+        'n_company' => 'Name Airline:',
+        'n_country' => 'Name Country',
+
+        'landing_reg_head_text' => 'Register Page',
+        'sign_in' => 'Sign In',
+        'sign_up' => 'Sign Up',
+        'reg_email' => 'Email',
+        'reg_password' => 'Password',
+        'reg_name' => 'Username',
+        'reg_country' => 'Country',
+ 
+
+        /********************* Media Transalte********************** */
+        'media_news'=> 'News',
+        'media_contact'=> 'Contact Us',
+
+        /*****News  */
+        'landing_news_head_text' => 'News',
+        'get_news' => 'News',
+
+        /*******Contact */
+        'landing_contact_head_text' => 'Contact Us',
+        'get_contact' => 'Contact Us',
+
+        'head_con_1' => 'Jordan Tourism Board',
+        'parag_con_1' => 'P.O. Box 830688
+<br>
+        Amman - Jordan 11183
+        <br>
+        Phone: 0096265678444
+        <br>
+        Fax: 0096265678295
+        <br>
+        Email: <a href="http://info@visitjordan.com">info@visitjordan.com</a>
+        <br>
+        Website: <a href="http://www.VisitJordan.com">www.VisitJordan.com</a>',
+        'head_con_2' => 'China',
+        'parag_con_2' => 'Contact Person: Amy Cheng 
+        <br>
+        Title: Business Development Manager
+        <br>
+        Phone: 861084030730
+        <br>
+        Fax:861084021630
+        <br>
+        Mobile: 8613501022249
+        <br>
+        Email: <a href="http://eileen@cconsulting.com.cn">eileen@cconsulting.com.cn</a> ; eileenzy@qq.com 
+        <br>
+        QQ: 11322719 
+        <br>
+        Address: Room 317，La Capitale， No.288 Chao Yang Men nei street，Dongcheng Beijing. China 
+        <br>
+        Zhang Yan 13501022249',
+        'head_con_3' => 'Brazil',
+        'parag_con_3' => 'Contact Person: Gisele Abrahao 
+        <br>
+        Title: Director 
+        <br>
+        Phone: 00551123673170
+        <br>
+        Email: <a href="http://Gisele@globalvisionaccess,com">Gisele@globalvisionaccess,com</a>
+        <br>
+        Address: Rua Apeninos, 429 #1206
+        <br>
+        Aclimacao – Sau Paulo – SP 
+        <br>
+        1533-000',
+        'head_con_4' => 'Russia',
+        'parag_con_4' => 'Contact Person: Yuliya Zhitkova
+        <br>
+        Title: PR Manager 
+        <br>
+        Phone: 0078126220426
+        <br>
+        Mobile: 0079818083098
+        <br>
+        Email: <a href="http://j.zhitkova@hermitagegroup.ru">j.zhitkova@hermitagegroup.ru</a>
+        <br>
+        Address: 154, Engelsa Av., office 404
+        <br>
+        194358,Saint-Petersburg, Russia
+        <br>
+        Maria Krupysheva 
+        <br>
+        Title: Deputy General Manager
+        <br>
+        Phone: 0078126220426
+        <br>
+        Mobile: 0079218704778
+        <br>
+        Email: <a href="http://m.krupysheva@hermitagegroup.ru">m.krupysheva@hermitagegroup.ru</a>
+        <br>
+        Address: 154, Engelsa Av., office 404
+        <br>
+        194358,Saint-Petersburg, Russia
+        <br>
+        ',
+        'head_con_5' => 'India',
+        'parag_con_5' => 'Contact Person: Ashit Taneja 
+        <br>
+        Title: VP- Market Strategy & Partnerships 
+        <br>
+        DELHI OFFICE
+        <br>
+        C-41, Gulmohar Park, New Delhi 110049
+        <br>
+        Phone: 00911141004590
+        <br>
+        
+        MUMBAI OFFICE
+        <br>
+        Phone: 00912266879354
+        <br>
+        
+        BENGALURU OFFICE
+        <br>
+        Phone: 00918452930633
+        <br>
+        Email: <a href="http://ashit@thinkstrawberries.com">ashit@thinkstrawberries.com</a>
+        <br>
+        Website: <a href="http://www.thinkstrawberries.com">www.thinkstrawberries.com</a>
+        <br>
+        ',
+        'head_con_6' => 'Italy ',
+        'parag_con_6' => 'Marco Biazzetti 
+        <br>
+        Via San Lorenzo, 5
+        <br>
+        10015 Ivrea (TO)
+        <br>
+        Phone: 00390125360919
+        <br>
+        Mobile: 00393313140601
+        <br>
+        <a href="http://italy@visitjordan.com">italy@visitjordan.com </a> 
+        <br>
+        <a href="http://marco@visitjordan.com">marco@visitjordan.com</a>',
+        'head_con_7' => 'Spain',
+        'parag_con_7' => 'Calle Montesa 41
+        <br>
+        28006
+        <br>
+        Madrid
+        <br>
+        Contact Person: Ms. Maria de Pereda 
+        <br>
+        Phone: 0034917813987
+        <br>
+        Fax: 0034917813988
+        <br>
+        Email: <a href="http://spain@visitjordan.com">spain@visitjordan.com</a>   
+        <br>
+        ',
+        'head_con_8' => 'JTB - Canada        ',
+        'parag_con_8' => '3-517 Graham Blvd
+        <br>
+        Mount Royal
+        <br>
+        Montreal, QC H3P 2E3
+        <br>
+        Phone :0015147509715 
+        <br>
+        Email : <a href="http://frank@visitjordan.com">frank@visitjordan.com</a>
+        <br>
+        Contact Person : Mr. Frank LaFleche',
+        'head_con_9' => 'US',
+        'parag_con_9' => '1420 Beverly Road 
+        <br>
+        Suite 203
+        <br>
+        McLean, VA 22101
+        <br>
+        Phone: 0017032437404/5
+        <br>
+        Fax: 0017032437406
+        <br>
+        Toll Free: 1877seejordan 7335673
+        <br>
+        Email: <a href="http://contactus@visitjordan.com">contactus@visitjordan.com</a>
+        <br>
+        Contact Person: Mrs. Malia Asfour',
+       
 ];

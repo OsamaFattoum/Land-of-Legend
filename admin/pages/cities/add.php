@@ -42,7 +42,7 @@
             $image = saveImage($image);
 
             /****** Query to Insert Cities Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('cities','name_en,name_ar,desc_en,desc_ar,image,cat_id',"?,?,?,?,?,?",null,null,[$name_en,$name_ar,$desc_en,$desc_ar,$image,$cat]);
+            $inserted = DataBaseQuery::insertQuery('cities','name_en,name_ar,desc_en,desc_ar,image,cat_id',"?,?,?,?,?,?",[$name_en,$name_ar,$desc_en,$desc_ar,$image,$cat]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

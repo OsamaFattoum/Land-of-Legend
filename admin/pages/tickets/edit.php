@@ -75,7 +75,7 @@
                     <input type="number" name="price" value="<?php echo $ticket['price']?>" class="form-control" id="exampleInputusername" aria-describedby="">
                 </div>
                 <div class="mb-3 col-lg-6">
-                    <label for="inputcountry" class="form-label  text-white">Country</label>
+                    <label for="inputcountry" class="form-label  text-white">City</label>
                     <select class="form-select"  name="city_id"  aria-label="Default select example" id="inputcountry">
                         <option selected value="..">...</option>
                         <?php foreach($cities as $city){

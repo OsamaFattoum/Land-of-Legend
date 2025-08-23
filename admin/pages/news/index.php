@@ -36,8 +36,8 @@
                             <th scope='row'>".$i++."</th>
                             <td>".$new['name_en']."</td>
                             <td>".$new['name_ar']."</td>
-                            <td>".wordwrap($new['desc_en'],strlen($new['desc_en'])/2.5,'<br>',true)."</td>
-                            <td>".wordwrap($new['desc_ar'],strlen($new['desc_ar'])/2.5,'<br>',true)."</td>
+                            <td>".$new['desc_en']."</td>
+                            <td>".$new['desc_ar']."</td>
                             <td>".$new['date']."</td>
                             <td><img style='width:40px;height:40px' src='Layout/images/upload/".$new['image']."'/></td>
                             <td class=''>

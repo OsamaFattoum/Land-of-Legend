@@ -45,7 +45,7 @@
             $image = saveImage($image);
 
             /****** Query to Insert hotel Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('hotels','name_en,name_ar,desc_en,desc_ar,image,stars,city_id',"?,?,?,?,?,?,?",null,null,[$name_en,$name_ar,$desc_en,$desc_ar,$image,$star,$city]);
+            $inserted = DataBaseQuery::insertQuery('hotels','name_en,name_ar,desc_en,desc_ar,image,stars,city_id',"?,?,?,?,?,?,?",[$name_en,$name_ar,$desc_en,$desc_ar,$image,$star,$city]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

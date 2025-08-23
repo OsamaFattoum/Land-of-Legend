@@ -5,7 +5,7 @@ include_once "Front_End/Helpers/config.php";
 
 include_once "Front_End/Helpers/functions.php";
 
-
+include_once "Front_End/Helpers/DataBaseQuery.php";
 
 
 

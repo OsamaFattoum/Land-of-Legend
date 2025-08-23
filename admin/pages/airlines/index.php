@@ -29,8 +29,8 @@
                     <th scope="col">Name_Arabic</th>
                     <th scope="col">Desc_English</th>
                     <th scope="col">Desc_Arabic</th>
-                    <th scope="col">Image</th>
                     <th scope="col">City Name</th>
+                    <th scope="col">Image</th>
                     <th scope="col">Oprations</th>
                 </tr>
             </thead>

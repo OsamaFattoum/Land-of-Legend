@@ -16,6 +16,12 @@
                 <i class="fa fa-newspaper"></i>
                 <span class="ms-2">Manage News</span>
             </a>
+        </li>
+        <li> 
+            <a href="?page=hotels" class="nav-link text-white"> 
+                <i class="fa-solid fa-hotel"></i>
+                <span class="ms-2">Manage Hotels</span>
+            </a> 
         </li> 
         <li> 
             <a href="?page=categories" class="nav-link text-white"> 
@@ -47,12 +53,7 @@
                 <span class="ms-2">Manage Tickets</span>
             </a> 
         </li> 
-        <li> 
-            <a href="?page=maps" class="nav-link text-white"> 
-                <i class="fa-solid fa-map"></i>
-                <span class="ms-2">Manage Maps</span>
-            </a> 
-        </li> 
+       
     </ul> 
     <hr> 
     <a href="#" class="d-flex align-items-center justify-content-start mb-4 mb-md-0 back-side text-white text-decoration-none"> 

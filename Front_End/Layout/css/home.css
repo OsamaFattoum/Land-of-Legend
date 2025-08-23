@@ -110,14 +110,17 @@ nav.scroll {
 .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
   color: #fff;
 }
-.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover{
   background-color: #fff;
   color: var(--main-color);
 }
 .navbar-nav .dropdown-menu {
   background-color: var(--main-color);
 }
-
+.box-user .dropdown-item:hover{
+  background-color: rgb(149, 26, 26) !important ;
+  color: #fff !important;
+}
 /************************Start Landing  ***************************/
 
 .landing {
@@ -201,11 +204,13 @@ nav.scroll {
 }
 
 .landing .box-down {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 9;
+  position: relative;
+  z-index: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+ 
 }
 
 .landing .box-down a {
@@ -213,37 +218,23 @@ nav.scroll {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-decoration: none;
   color: #fff;
-  opacity: 0.5;
   position: relative;
   transition: all 0.2s ease-in-out;
+  width: 40%;
+  background-color: var(--main-color);
+  border-radius: 20px;
 }
-.landing .box-down span {
-  margin-bottom: 5px;
-}
-.landing .box-down svg {
-  position: relative;
-  top: -5px;
-}
-@keyframes arrow_down {
-  form {
-    top: -40px;
-  }
-  to {
-    top: 0px;
-  }
+.landing .box-down a:hover{
+  background-color: #fff;
+  color: var(--main-color);
 }
 
-.landing .box-down a:hover {
-  opacity: 1;
-}
 
-.landing .box-down a:hover svg {
-  animation-name: arrow_down;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-}
+
+
+
+
 
 /************************Start About jordan  ***************************/
 
@@ -385,7 +376,7 @@ html[dir=rtl] .box-info > div{
 .box-info > div[data-show=active]{
   opacity: 1;
 }
-.content-ground-transport > div:not(.active){
+.content-ground-transport > div:not(.active),.content-attraction > div:not(.active),.content-register > div:not(.active){
     display: none !important;
 }
 .content-ground-transport .content-bus > div .card-body{
@@ -407,7 +398,7 @@ html[dir=rtl] .content-ground-transport .content-bus > div .card-body svg{
   color: #b64a23;
 }
 
-/*******************************Start Just Facts**************************************/
+/*******************************Start Experiances**************************************/
 
 
 

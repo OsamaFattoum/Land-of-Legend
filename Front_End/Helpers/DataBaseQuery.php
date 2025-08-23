@@ -4,7 +4,7 @@
 
         /* Query To Connection Data Base*/
         public static function conDataBase($serverHost="localhost",$userName="root",$password="",$dataBaseName = "land_of_legend"){
-
+            $con = '';
             try{
             $con = new PDO("mysql:host=$serverHost;dbname=$dataBaseName",$userName,$password);
             $con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
@@ -75,7 +75,7 @@
 
         /* Query To Insert Info in Data Base */
 
-        public static function insertQuery($table,$rowVariables,$Q,$condition=null,$limit=null,$values){
+        public static function insertQuery($table,$rowVariables,$Q,$values,$condition=null,$limit=null){
             
             $con = DataBaseQuery::conDataBase();
 

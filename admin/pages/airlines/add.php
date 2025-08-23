@@ -41,7 +41,7 @@
             $image = saveImage($image);
 
             /****** Query to Insert Airline Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('airlines','name_en,name_ar,desc_en,desc_ar,image,country_id',"?,?,?,?,?,?",null,null,[$name_en,$name_ar,$desc_en,$desc_ar,$image,$country]);
+            $inserted = DataBaseQuery::insertQuery('airlines','name_en,name_ar,desc_en,desc_ar,image,country_id',"?,?,?,?,?,?",[$name_en,$name_ar,$desc_en,$desc_ar,$image,$country]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

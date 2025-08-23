@@ -40,8 +40,8 @@
                             <th scope='row'>".$i++."</th>
                             <td>".$content['name_en']."</td>
                             <td>".$content['name_ar']."</td>
-                            <td>".wordwrap($content['desc_en'],strlen($content['desc_en'])/2,'<br>',true)."</td>
-                            <td>".wordwrap($content['desc_ar'],strlen($content['desc_ar'])/2,'<br>',true)."</td>
+                            <td>".$content['desc_en']."</td>
+                            <td>".$content['desc_ar']."</td>
                             <td>".$content['city_name']."</td>
                             <td><img style='width: 100px;height: 100px; object-fit:cover' src='Layout/images/upload/".$content['image']."'/></td>
                             <td class=''>

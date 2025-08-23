@@ -2,8 +2,9 @@
 
 session_start();
 if(isset($_SESSION["admin_name"]) && isset($_SESSION["admin_id"])){
-    session_unset();
-    session_destroy();
+    
+    $_SESSION['admin_name'] = null;
+    $_SESSION['admin_id'] = null;
     
     header("location:Login.php");
     exit();

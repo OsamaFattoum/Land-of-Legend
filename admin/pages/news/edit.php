@@ -31,7 +31,7 @@
             if(empty($name_en) || empty($name_ar)){
                 $msg .="Names Field Is Empty!<br>";
             }
-            if(filter_var([$name_ar,$name_en],FILTER_SANITIZE_NUMBER_INT)){
+            if(filter_var([$name_ar,$name_en],FILTER_SANITIZE_SPECIAL_CHARS)){
                 $msg .="Name Must be charactars !<br>";
             }
             if(empty($desc_ar) || empty($desc_en)){

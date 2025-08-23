@@ -30,7 +30,7 @@
             if(empty($price)){
                 $msg .= "Price Is Empty!<br>";
             }
-            if($price > 300){
+            if($price > 700){
                 $msg .= "Price Is Excpinsive!<br>";
             }
             if(empty($date_in)){
@@ -53,7 +53,7 @@
         if(empty($msg)){
 
             /****** Query to Insert Airline reservation Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('res_airline','type,date_in,date_out,price,airline_id,country_res_id',"?,?,?,?,?,?",null,null,[$type,$date_in,$date_out,$price,$airline,$country]);
+            $inserted = DataBaseQuery::insertQuery('res_airline','type,date_in,date_out,price,airline_id,country_res_id',"?,?,?,?,?,?",[$type,$date_in,$date_out,$price,$airline,$country]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

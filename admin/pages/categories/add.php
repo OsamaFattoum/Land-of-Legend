@@ -34,7 +34,7 @@
             $image = saveImage($image);
 
             /****** Query to Insert Category Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('categorys','name_en,name_ar,desc_en,desc_ar,image',"?,?,?,?,?",null,null,[$name_en,$name_ar,$desc_en,$desc_ar,$image]);
+            $inserted = DataBaseQuery::insertQuery('categorys','name_en,name_ar,desc_en,desc_ar,image',"?,?,?,?,?",[$name_en,$name_ar,$desc_en,$desc_ar,$image]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

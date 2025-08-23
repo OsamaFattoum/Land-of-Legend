@@ -41,8 +41,8 @@
                             <th scope='row'>".$i++."</th>
                             <td>".$hotel['name_en']."</td>
                             <td>".$hotel['name_ar']."</td>
-                            <td>".wordwrap($hotel['desc_en'],strlen($hotel['desc_en'])/2,'<br>',true)."</td>
-                            <td>".wordwrap($hotel['desc_ar'],strlen($hotel['desc_ar'])/2,'<br>',true)."</td>
+                            <td>".wordwrap($hotel['desc_en'],75,'<br>',true)."</td>
+                            <td>".wordwrap($hotel['desc_ar'],75,'<br>',true)."</td>
                             <td>".$hotel['stars']."</td>
                             <td>".$hotel['city_name']."</td>
                             <td><img style='width: 100px;height: 100px; object-fit:cover' src='Layout/images/upload/".$hotel['image']."'/></td>

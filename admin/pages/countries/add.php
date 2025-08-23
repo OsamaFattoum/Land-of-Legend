@@ -19,7 +19,7 @@
         if(empty($msg)){
 
             /****** Query to Insert country Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('countries','name',"?",null,null,[$name]);
+            $inserted = DataBaseQuery::insertQuery('countries','name',"?",[$name]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

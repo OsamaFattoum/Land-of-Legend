@@ -1,5 +1,5 @@
 <?php 
- /****** Query Get News Form Database  ****** */
+ /****** Query Get Categories Form Database  ****** */
  $cats = DataBaseQuery::selectQuery('*','categorys');
 ?>
 
@@ -35,8 +35,8 @@
                             <th scope='row'>".$i++."</th>
                             <td>".$cat['name_en']."</td>
                             <td>".$cat['name_ar']."</td>
-                            <td>".wordwrap($cat['desc_en'],strlen($cat['desc_en'])/2,'<br>',true)."</td>
-                            <td>".wordwrap($cat['desc_ar'],strlen($cat['desc_ar'])/2,'<br>',true)."</td>
+                            <td>".$cat['desc_en']."</td>
+                            <td>".$cat['desc_ar']."</td>
                             <td><img style='width: 100px;height: 100px; object-fit:cover' src='Layout/images/upload/".$cat['image']."'/></td>
                             <td class=''>
                                 <a href='?page=categories&edit=".$cat['id']."' class='btn btn-info'><i class='fa-solid fa-edit text-white'></i></a>

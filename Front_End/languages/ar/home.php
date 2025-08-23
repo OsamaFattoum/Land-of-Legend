@@ -17,6 +17,8 @@ return [
     'attraction_link' => 'اماكن تستحق الزيارة',
     'online_booking_link' => 'الحجوزات',
     'media_link' => 'الوسائط المتعدده',
+    'res' => 'قائمه الحجوزات',
+    'logout'    => 'تسجيل خروج',
 
 
     /********************* Landing About Jordan Transalte********************** */
@@ -764,4 +766,214 @@ return [
         'parag_ramdan' => 'شهر رمضان المبارك هو أحد المناسبات السارّة في الأردن، فهو شهر الصوم والتعبّد والكرم. تتبدّل تواريخ الشهر كل عام، تبعاً للتقويم القمري الإسلامي. لا تباع المشروبات الكحولية أثناء الشهر الفضيل إلاّ في الفنادق الكبيرة. يُمنَع التدخين والأكل والشرب في الأماكن العامة خلال ساعات الصيام (النهار). كدلالة احترام، يُطلَب من الزوّار تجنّب القيام بهذه النشاطات في الأماكن العامة خلال ساعات الصيام. رغم أن ساعات النهار قد تبدو مملة في رمضان، إلاّ أنّ وفرة سهرات الليل تعوّض عن رتابة النهار. تفتح المحلات والمقاهي والمطاعم أبوابها طوال الليل ضمن أجواء احتفالية تجعل السهر أحلى!
         <br><br>
         نصيحة: خلال الشهر الفضيل، تكون أوقات دوام المحلات والبنوك والمكاتب في غالب الأحيان من الساعة 9 صباحاً وحتى الساعة 2 ظهراً.',
+
+        /********************* Experiances Transalte********************** */
+        'landing_exp_head_text'=> 'مناطق و أنشطة الجذب السياحي',
+        'get_experience'=> 'مناطق و أنشطة الجذب السياحي',
+        /********************* Attractions Transalte********************** */
+        'landing_att_head_text'=> 'أماكن تستحق الزيارة',
+        'get_att'=> 'أماكن تستحق الزيارة',
+        'content' => 'المحتوى',
+        'map'   => 'الخريطه',
+
+
+
+
+        /********************* Booking Transalte********************** */
+        'landing_book_head_text' => 'الحجوزات',
+        'get_book'=> 'الحجوزات',
+        'reg' => 'صفحه الدخول',
+        'resulte_not'=> 'لا يوجد نتائج لعرضها',
+        'h_date_in_t' => 'تاريخ دخول الفندق',
+        'a_date_in_t' => 'تاريخ الطيران',
+        'a_date_out_t' => 'تاريخ الرجوع',
+        'b_ticket' => 'شراء تذكره دخول للمعالم',
+        'search' => 'بحث',
+        'add_booking'=> 'أضافه حجز',
+        'hotel_res_t' => 'حجوزات الفنادق',
+        'airline_res_t' => 'حجوزات الطيران',
+        'ticket_res_t' => 'حجوزات الدخول للمناطق السياحيه',
+        'n_range' => ' :عددالاشخاص',
+        'n_night' => ' :الليالي',
+        'n_company' => ' :اسم شركه الطيران',
+        'n_country' => ' :أسم البلد',
+        'n_date_in' => ' :تاريخ الدخول',
+        'n_date_out' => ' :تاريخ الخروج',
+        'landing_reg_head_text' => 'صفحه التسجيل',
+
+        'sign_in' => 'دخول',
+        'sign_up' => 'اشتراك',
+        'reg_email' => 'الايميل',
+        'reg_password' => 'الباسورد',
+        'reg_name' => 'الاسم',
+        'reg_country' => 'المدينه',
+
+        /********************* Media Transalte********************** */
+        'media_news'=> 'الأخبار',
+        'media_contact'=> 'اتصل بنا',
+        
+        /*****News  */
+        'landing_news_head_text' => 'الأخبار',
+        'get_news' => 'الأخبار',
+
+         /*******Contact */
+         'landing_contact_head_text' => 'اتصل بنا',
+         'get_contact' => 'اتصل بنا',
+
+
+         'head_con_1' => 'هيئة تنشيط السياحة',
+         'parag_con_1' => 'صندوق البريد 830688
+            <br>
+         عمان,الاردن 11183
+         <br>
+         هاتف: 0096265678444
+         <br>
+         فاكس: 0096265678295
+         <br>
+         البريد الاكتروني: <a href="http://info@visitjordan.com">info@visitjordan.com</a>
+         <br>
+         الموقع الالكتروني: <a href="http://www.VisitJordan.com">www.VisitJordan.com</a>
+         <br>
+         ',
+         'head_con_2' => 'الصين:',
+         'parag_con_2' => 'الشخص المسؤول: Amy Cheng 
+            <br>
+         العنوان الوظيفي: Business Development Manager
+         <br>
+         هاتف: 861084030730
+         <br>
+         فاكس:861084021630
+         <br>
+         رقم المحمول: 8613501022249
+         <br>
+         البريد الالكتروني <a href="http://eileen@cconsulting.com.cn">eileen@cconsulting.com.cn</a> ; eileenzy@qq.com 
+         <br>
+         QQ: 11322719 
+         <br>
+         العنوان: Room 317，La Capitale， No.288 Chao Yang Men nei street，Dongcheng Beijing. China 
+         <br>
+         Zhang Yan 13501022249',
+         'head_con_3' => 'البرازيل:',
+         'parag_con_3' => 'الشخص المسؤول: Gisele Abrahao 
+         <br>
+         العنوان الوظيفي: Director 
+         <br>
+         هاتف: 00551123673170
+         <br>
+         البريد الالكتروني: <a href="http://Gisele@globalvisionaccess,com">Gisele@globalvisionaccess,com</a>
+         <br>
+         العنوان: Rua Apeninos, 429 #1206
+         <br>
+         Aclimacao – Sau Paulo – SP 
+         <br>
+         1533-000',
+         'head_con_4' => 'روسيا',
+         'parag_con_4' => 'الشخص المسؤول: Yuliya Zhitkova
+         <br>
+         العنوان الوظيفي: PR Manager 
+         <br>
+         هاتف: 0078126220426
+         <br>
+         رقم المحمول: 0079818083098
+         <br>
+         البريد الالكتروني: <a href="http://j.zhitkova@hermitagegroup.ru">j.zhitkova@hermitagegroup.ru</a>
+         <br>
+         العنوان: 154, Engelsa Av., office 404
+         <br>
+         194358,Saint-Petersburg, Russia
+         <br>
+         Maria Krupysheva 
+         <br>
+         العنوان الوظيفي: Deputy General Manager
+         <br>
+         هاتف: 0078126220426
+         <br>
+         رقم المحمول: 0079218704778
+         <br>
+         البريد الالكتروني: <a href="http://m.krupysheva@hermitagegroup.ru">m.krupysheva@hermitagegroup.ru</a>
+         <br>
+         العنوان: 154, Engelsa Av., office 404
+         <br>
+         194358,Saint-Petersburg, Russia',
+         'head_con_5' => 'الهند',
+         'parag_con_5' => 'الشخص المسؤول: Ashit Taneja 
+         <br>
+         العنوان الوظيفي: VP- Market Strategy & Partnerships 
+         <br>
+         DELHI OFFICE
+         <br>
+         C-41, Gulmohar Park, New Delhi 110049
+         <br>
+         هاتف: 00911141004590
+         <br>
+         
+         MUMBAI OFFICE
+         <br>
+         هاتف: 00912266879354
+         <br>
+         
+         BENGALURU OFFICE
+         <br>
+         هاتف: 00918452930633
+         <br>
+         البريد الالكتروني: <a href="http://ashit@thinkstrawberries.com">ashit@thinkstrawberries.com</a>
+         <br>
+         الموقع الالكتروني: <a href="http://www.thinkstrawberries.com">www.thinkstrawberries.com</a>',
+         'head_con_6' => 'ايطاليا          ',
+         'parag_con_6' => 'Marco Biazzetti 
+            <br>
+         Via San Lorenzo, 5
+         <br>
+         10015 Ivrea (TO)
+         <br>
+         هاتف: 00390125360919
+         <br>
+         رقم المحمول: 00393313140601
+         <br>
+         <a href="http://italy@visitjordan.com">italy@visitjordan.com</a>
+         <br>
+         <a href="http://marco@visitjordan.com">marco@visitjordan.com</a>',
+         'head_con_7' => 'اسبانيا',
+         'parag_con_7' => 'Calle Montesa 41
+         <br>
+         28006
+         <br>
+         Madrid
+         <br>
+         الشخص المسؤول: Ms. Maria de Pereda 
+         <br>
+         هاتف: 0034917813987
+         <br>
+         فاكس: 0034917813988
+         <br>
+         البريد الالكتروني: <a href="http://spain@visitjordan.com">spain@visitjordan.com</a>   ',
+         'head_con_8' => 'هيئة تنشيط السياحة - كندا         ',
+         'parag_con_8' => '3-517 Graham Blvd
+         <br>
+         Mount Royal
+         <br>
+         Montreal, QC H3P 2E3
+         <br>
+         هاتف :0015147509715 
+         <br>
+         البريد الالكتروني : <a href="http://frank@visitjordan.com">frank@visitjordan.com</a>
+         <br>
+         الشخص المسؤول : Mr. Frank LaFleche',
+         'head_con_9' => 'الولايات المتحدة',
+         'parag_con_9' => '1420 Beverly Road 
+<br>
+         Suite 203
+         <br>
+         McLean, VA 22101
+         <br>
+         هاتف: 0017032437404/5
+         <br>
+         فاكس: 0017032437406
+         <br>
+         الرقم المجاني: 1877seejordan 7335673
+         <br>
+         البريد الالكتروني: <a href="http://contactus@visitjordan.com">contactus@visitjordan.com</a> 
+         <br>
+         الشخص المسؤول: Mrs. Malia Asfour',
+
 ];

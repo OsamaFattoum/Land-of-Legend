@@ -39,7 +39,7 @@
         if(empty($msg)){
 
             /****** Query to Insert User Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('users','name,email,password,country_id',"?,?,?,?",null,null,[$name,$email,sha1($password),$country]);
+            $inserted = DataBaseQuery::insertQuery('users','name,email,password,country_id',"?,?,?,?",[$name,$email,sha1($password),$country],null,null);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';

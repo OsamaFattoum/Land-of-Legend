@@ -14,7 +14,7 @@
           </a>
           <div class="dropdown-menu py-2 px-2">
             <div class="mb-2 dropdown-item">
-              <a href="<?php echo !isset($_GET['page']) ? '#about_jordan' : '/' ?>" class="dropdown-item"><?php echo $general_sub_link_about ?></a>
+              <a href="<?php echo !isset($_GET['page']) && !isset($_GET['show']) ? '#about_jordan' : '/' ?>" class="dropdown-item"><?php echo $general_sub_link_about ?></a>
             </div>
             <div class="mb-3 dropdown-item">
               <a href="<?php echo isset($_GET['page']) && $_GET['page'] == 'get_around' && !isset($_GET['sub_page']) ? '#get_around' : '?page=get_around'; ?>" class="dropdown-item"><?php echo $general_sub_link_getting ?></a>
@@ -25,22 +25,44 @@
             <div class=" dropdown-item">
               <a href="<?php echo isset($_GET['page']) && $_GET['page'] == 'val_tradition' && !isset($_GET['sub_page']) ? '#val_tradition' : '?page=val_tradition'; ?>" class="dropdown-item"><?php echo $general_sub_link_val; ?> </a>
             </div>
-
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#"><?php echo $experinces_link ?></a>
+          <a class="nav-link " href="?expriances"><?php echo $experinces_link ?></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#"><?php echo $attraction_link ?></a>
+          <a class="nav-link " href="?attraction"><?php echo $attraction_link ?></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link  " href="#"><?php echo $online_booking_link ?></a>
+     
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <?php echo $media_link; ?>
+          </a>
+          <div class="dropdown-menu pt-2 px-2">
+            <div class="mb-2 dropdown-item">
+              <a href="?news" class="dropdown-item"><?php echo $media_news ?></a>
+            </div>
+            <div class="dropdown-item">
+              <a href="?contact" class="dropdown-item"><?php echo $media_contact ?></a>
+            </div>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#"><?php echo $media_link ?></a>
-        </li>
-
+          <?php if(isset($_SESSION["user_name"]) && isset($_SESSION["user_id"])){ ?>
+            <li class="nav-item dropdown box-user">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <?php echo strtoupper($_SESSION['user_name']); ?>
+              </a>
+              <div class="dropdown-menu pt-2 px-2 ">
+                <div class="dropdown-item">
+                  <a href="?booking&res" class="dropdown-item"><?php echo $res ?></a>
+                </div>
+                <div class="dropdown-item item-logout">
+                  <a href="?booking&logout" class="dropdown-item logout "><?php echo $logout ?></a>
+                </div>
+              </div>
+          </li>
+          <?php } ?>
+      
       </ul>
     </div>
   </div>

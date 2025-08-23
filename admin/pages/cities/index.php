@@ -40,8 +40,8 @@
                             <th scope='row'>".$i++."</th>
                             <td>".$city['name_en']."</td>
                             <td>".$city['name_ar']."</td>
-                            <td>".wordwrap($city['desc_en'],strlen($city['desc_en'])/2,'<br>',true)."</td>
-                            <td>".wordwrap($city['desc_ar'],strlen($city['desc_ar'])/2,'<br>',true)."</td>
+                            <td>".$city['desc_en']."</td>
+                            <td>".$city['desc_ar']."</td>
                             <td>".$city['category_name']."</td>
                             <td><img style='width: 100px;height: 100px; object-fit:cover' src='Layout/images/upload/".$city['image']."'/></td>
                             <td class=''>

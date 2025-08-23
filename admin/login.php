@@ -24,13 +24,13 @@ if(isset($_POST['login'])){
 
     /** Query To check if the inputs true in database */
     $info = DataBaseQuery::selectOneQuery('*','users','WHERE email = ? AND password = ? AND is_admin = 1',[$email,sha1($password)]);
-    
+   
     if($info){
         /** if the query true will be add info user in  session and redirect to dashboard */
         $_SESSION['admin_id'] = $info['id'];
         $_SESSION['admin_name'] = $info['name'];
 
-        header("location:Home.php");
+        header("location:index.php");
         exit;
 
     }else{

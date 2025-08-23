@@ -58,7 +58,7 @@
             
 
             /****** Query to Insert hotel reservation Form Database  ****** */
-            $inserted = DataBaseQuery::insertQuery('res_h','type,range_room,price,nights,date_in,hotel_id,status',"?,?,?,?,?,?,?",null,null,[$type,$range,$price,$nights,$date_in,$hotel,$status]);
+            $inserted = DataBaseQuery::insertQuery('res_h','type,range_room,price,nights,date_in,hotel_id,status',"?,?,?,?,?,?,?",[$type,$range,$price,$nights,$date_in,$hotel,$status]);
 
             if($inserted > 0){
             $_SESSION['type'] = 'success';
