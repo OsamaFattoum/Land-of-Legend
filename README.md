@@ -31,8 +31,8 @@ The platform helps tourists explore popular destinations and discover unique act
 ![Home Page](screenshots/index.png)  
 ![Experience Page](screenshots/Experience.png)
 ![Attractions Page](screenshots/Attractions.png)
-![Values & Traditions Page](screenshots/Values & Traditions.png)
-![Wadi Rum Page](screenshots/wadi rum.png)
+![Values & Traditions Page](screenshots/ValuesTraditions.png)
+![Wadi Rum Page](screenshots/wadirum.png)
 ---
 
 ## 🚀 Installation & Setup  
