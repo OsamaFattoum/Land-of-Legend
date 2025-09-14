@@ -71,7 +71,7 @@ The platform helps tourists explore popular destinations and discover unique act
 
 ## 🔮 Future Improvements
 
-* 🌐 Add multilingual support (Arabic & English).
+* 🌐 Add multilingual support
 * 📌 Integrate Google Maps for interactive navigation.
 * ⭐ Allow users to rate and review destinations.
 * 🧳 Add itinerary planner for customized trips.
